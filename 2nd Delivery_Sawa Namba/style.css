@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+h1, h2, h3,h5 {
+  font-family: "Playfair Display", sans-serif;
+  color: #333;
+}
+
+body{  background: color #f3f3f3;
+}
+
+
+p {
+  font-family: "Noto Sans", sans-serif;
+  color: #333;}
+
+.navbar {
+  background-color: #fff8f3 !important; 
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link {
+  color: #1e0505 !important; 
+}
+
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 10px;
+}
+
+
+.btn-success {
+  background-color: #28a745; 
+  border-color: #1e7e34;
+}
+
+
+@media (max-width: 768px) {
+  
+body {
+    font-size: 14px; 
+  }
+}
+
+h1, h2, h3,h5 {
+  font-weight: 700; 
+}
+
+
+.container, .container-fluid {
+  padding: 20px;
+}
+
+img[src$="foto5.jpg"] {
+  border-bottom-right-radius: 20px; width: 300px;
+}
+
+img[src$="foto6.png"] {
+  border-bottom-left-radius: 20px; width: 300px;
+}
+
